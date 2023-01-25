@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color:grey;
+
+}
+#all{
+    width: 100vw;
+    height: 100vh;
+}
+#CorpsM{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 10%);   
+}
+#all, #CorpsM, p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#all>p{
+    position: absolute;
+    width: auto;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 5px;
+}
+#Dates{
+    top: 100px;;
+}
+#Second{
+    top: 400px;
+    font-weight: bold;
+}
+#quote{
+    border: none;
+    top :350px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+}
+#AHeure, #AMinute, #ASecond {
+    position: relative;
+    transform-origin: bottom center;
+}
+#AHeure {
+    width: 6px;
+    height: 120px;
+    bottom: 60px;
+    left: 7px;
+    background-color: black
+}
+#AMinute{
+    width: 2px;
+    height: 170px;
+    bottom: 85px;
+    left: 2px;
+    border: 1px solid black;
+}
+#ASecond {
+    width: 2px;
+    height: 220px;
+    bottom: 110px;
+    right: 1px;
+    background: aqua;
+}
+#centre{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    position: relative;
+    top: 0;
+    right: 7.5px;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Mode{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+#Mode>button{
+    width: 150px ;
+    height: 30px;
+    border-radius: 20px;
+    border-color: brown;
+}
+#Mode>button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
